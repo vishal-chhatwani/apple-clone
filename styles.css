@@ -25,7 +25,7 @@ body {
 }
 
 .nav-item {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #b9b9bc;
     list-style: none;
     text-decoration: none;
@@ -33,6 +33,11 @@ body {
 
 .logo {
     color: #f5f5f7;
+    font-size: 1rem;
+}
+
+.search-logo {
+    color: #b9b9bc;
     font-size: 1rem;
 }
 
@@ -64,6 +69,8 @@ body {
     padding-top: 3rem;
     color: #fff;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .shopping-event-wrapper > .heading {
@@ -81,7 +88,8 @@ body {
 .shopping-event-wrapper > .explore-link {
     color: #2997ff;
     font-size: 1.3rem;
-    margin-top: 1rem;
+    display: flex;
+    margin: 1rem auto;
 }
 
 .shopping-event-wrapper > .explore-link:hover {
@@ -119,11 +127,11 @@ body {
 }
 
 .calendar-date {
-    font-size: 5rem;
+    font-size: 4.5rem;
     line-height: 1.05734;
     font-weight: 300;
     letter-spacing: -.01em;
-    margin-left: 46px;
+    margin-left: 2rem;
 }
 
 .ase-2021-day-circle {
@@ -135,8 +143,8 @@ body {
     opacity: 1;
     font-weight: 400;
     border: 1px solid #737171;
-    padding: 1.5rem;
-    border-radius: 5rem;
+    padding: 1rem;
+    border-radius: 4rem;
 }
 
 .ase-2021-day-27x {
@@ -330,10 +338,15 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.footer-links > .column > .row:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .footer-links > .column > .column-heading {
     font-weight: bold;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    color: #6e6e73;
+    color: #1d1d1f;
 }
 
